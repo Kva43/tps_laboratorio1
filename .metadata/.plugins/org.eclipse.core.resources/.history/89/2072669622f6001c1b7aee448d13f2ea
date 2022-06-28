@@ -1,0 +1,162 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Controller.h"
+#include "LinkedList.h"
+#include "parser.h"
+#include "Passenger.h"
+
+
+/** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo texto).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_loadFromText(char* path , LinkedList* pArrayListPassenger)
+{
+	int retorno=-1;
+	FILE* pFile;
+	if(pArrayListPassenger != NULL && path != NULL)
+	{
+		pFile = fopen(path,"r");
+		if(parser_FromText(pFile, pArrayListPassenger)==0)
+		{
+			retorno = 0;
+		}
+	}
+	return retorno;
+}
+
+/** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo binario).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Alta de pasajero
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_addPassenger(LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Modificar datos de pasajero
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_editPassenger(LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Baja de pasajero
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_removePassenger(LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Listar pasajeros
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+
+/**
+ * 	int id;
+	char nombre[50];
+	char apellido[50];
+	float precio;
+	int tipoPasajero;
+	char codigoVuelo[4];
+	int isEmpty;
+ */
+int controller_ListPassenger(LinkedList* pArrayListPassenger)
+{
+	int retorno = -1;
+	Passenger* a;
+	int id;
+	char nombre[CHAR_LEN];
+	char apellido[CHAR_LEN];
+	float precio;
+	int tipoPasajero;
+	char codigoVuelo[CHAR_LEN];
+	a = pArrayListPassenger->pFirstNode->pNextNode->pElement;
+
+	for(int i=0; i<ll_len(pArrayListPassenger);i++)
+	{
+		a = ll_get(pArrayListPassenger, i);
+		if(Passenger_getId(a, &id) == 0 &&
+			Passenger_getNombre(a, nombre) == 0 &&
+			Passenger_getApellido(a, apellido) == 0 &&
+			Passenger_getPrecio(a, &precio) == 0 &&
+			Passenger_getTipoPasajero(a, &tipoPasajero) == 0 &&
+			Passenger_getCodigoVuelo(a, codigoVuelo) == 0)
+		{
+			retorno = 0;
+			printf("%d, %s, %d, %.4f, %d, %d\n",id,descripcion,tipo,precioUnitario,cantidad,totalServicio);
+		}
+
+	}
+	return retorno;
+}
+
+/** \brief Ordenar pasajeros
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_sortPassenger(LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo texto).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_saveAsText(char* path , LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo binario).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+

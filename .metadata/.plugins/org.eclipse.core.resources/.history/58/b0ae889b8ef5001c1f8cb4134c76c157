@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ArrayPassenger.h"
+#include "utn.h"
+#include "Controller_passenger.h"
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+	int opciones;
+
+	Passenger passenger[CANT_PASAJEROS];
+
+	if(initPassengers(passenger, CANT_PASAJEROS)==0)
+	{
+		printf("Se inicializo correctamente\n");
+	}
+	do
+	{
+		if(utn_getNumero(&opciones, "1.ALTAS\n2.MODIFICAR\n3.BAJA\n4.INFORMAR\n", "\nError\n", 1, 4, 2)==0)
+		{
+			switch(opciones)
+			{
+				case 1:
+					if(addPassenger(passenger, 0, 10, "Cristian","Caba",111.1,12,"codigoUno")==0
+					&& addPassenger(passenger, 1, 11, "Ariel","Roman",99.9,21,"codigoDos")==0
+					&& addPassenger(passenger, 2, 12, "Kva","Cabanilla",19.1,23,"codigoTres")==0)
+					{
+						printf("Todo OK\n");
+					}
+//					if(Controller_passengerAdd(passenger, CANT_PASAJEROS, id)==0)
+//					{
+//						printf("\nCarga Exitosa\n\n");
+//					}
+					break;
+				case 2:
+					utn_getNumero(&auxIdModificar,"ID de empleado a modificar: ","\nError\n", 10, 11, 3);
+					findPassengerById(passenger,CANT_PASAJEROS, auxIdModificar);
+					break;
+				case 3:
+//					if(utn_getNumero(&auxIdDarBaja, "ID del empleado a dar de baja: ", "\nError\n", 10, 11, 3)==0)
+//					{
+//						if(removePassenger(passenger, CANT_PASAJEROS, auxIdDarBaja)==0)
+//						{
+//							printf("Se elimino con exito");
+//						}
+//						else
+//						{
+//							printf("Sin datos que eliminar");
+//						}
+//					}
+					break;
+				case 4:
+					Controller_passengerPrint(passenger, CANT_PASAJEROS);
+					break;
+			}
+		}
+	} while(opciones != 5);
+	return 0;
+}

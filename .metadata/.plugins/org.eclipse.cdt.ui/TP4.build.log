@@ -1,0 +1,16 @@
+12:26:42 **** Rebuild of configuration Debug for project TP4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
+gcc -o TP4.exe "src\\LinkedList.o" "src\\main.o" 
+src\main.o: In function `main':
+C:\Users\USUARIO\TP_Laboratorio_1\TP4\Debug/../src/main.c:10: undefined reference to `startTesting'
+C:\Users\USUARIO\TP_Laboratorio_1\TP4\Debug/../src/main.c:11: undefined reference to `startTesting'
+C:\Users\USUARIO\TP_Laboratorio_1\TP4\Debug/../src/main.c:12: undefined reference to `startTesting'
+C:\Users\USUARIO\TP_Laboratorio_1\TP4\Debug/../src/main.c:13: undefined reference to `startTesting'
+C:\Users\USUARIO\TP_Laboratorio_1\TP4\Debug/../src/main.c:14: undefined reference to `startTesting'
+src\main.o:C:\Users\USUARIO\TP_Laboratorio_1\TP4\Debug/../src/main.c:15: more undefined references to `startTesting' follow
+collect2.exe: error: ld returned 1 exit status
+
+12:26:44 Build Failed. 6 errors, 0 warnings. (took 1s.704ms)
+

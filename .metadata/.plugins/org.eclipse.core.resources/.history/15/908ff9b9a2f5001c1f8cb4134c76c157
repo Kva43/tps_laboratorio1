@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "ArrayPassenger.h"
+#include "utn.h"
+#include "Controller_passenger.h"
+#define CANT_PASAJEROS 100
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+	int opciones;
+	int idModificar;
+	int id = 0;
+
+	Passenger passenger[CANT_PASAJEROS];
+
+	if(initPassengers(passenger, CANT_PASAJEROS)==0)
+	{
+		printf("Se inicializo correctamente\n");
+	}
+	do
+	{
+		if(utn_getNumero(&opciones, "\n1.ALTAS\n2.MODIFICAR\n3.BAJA\n4.INFORMAR\n", "\nError\n", 1, 4, 2)==0)
+		{
+			switch(opciones)
+			{
+				case 1:
+					if(Controller_passengerAdd(passenger, CANT_PASAJEROS, id)==0)
+					{
+						id++;
+						printf("\nCarga realizada\n");
+					}
+					break;
+				case 2:
+					utn_getNumero(&idModificar,"ID de empleado a modificar: ","\nError\n", 10, 11, 3);
+					findPassengerById(passenger,CANT_PASAJEROS, idModificar);
+					break;
+				case 3:
+//					if(utn_getNumero(&auxIdDarBaja, "ID del empleado a dar de baja: ", "\nError\n", 10, 11, 3)==0)
+//					{
+//						if(removePassenger(passenger, CANT_PASAJEROS, auxIdDarBaja)==0)
+//						{
+//							printf("Se elimino con exito");
+//						}
+//						else
+//						{
+//							printf("Sin datos que eliminar");
+//						}
+//					}
+					break;
+				case 4:
+					Controller_passengerPrint(passenger, CANT_PASAJEROS);
+					break;
+			}
+		}
+	} while(opciones != 5);
+	return 0;
+}

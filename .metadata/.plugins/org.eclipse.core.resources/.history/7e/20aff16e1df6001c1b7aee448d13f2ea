@@ -1,0 +1,45 @@
+#ifndef SERVICIOS_H_
+#define SERVICIOS_H_
+
+#define CHAR_LEN 50
+
+typedef struct
+{
+	int id_servicio;
+	char descripcion[CHAR_LEN];
+	int tipo;
+	float precioUnitario;
+	int cantidad;
+	int totalServicio;
+}Servicios;
+
+Servicios* new(void);
+Servicios* newParametros(char* idStr,char* descripcion,char* Tipo ,char* precioUnitario,char* Cantidad,char* TotalServicio);
+void delete(Servicios* this);
+
+int setId(Servicios* this,int id);
+int setIdTxt(Servicios* this,char* id);
+int getId(Servicios* this,int* id);
+
+int setDescripcion(Servicios* this,char* descripcion);
+int getDescripcion(Servicios* this,char* descripcion);
+
+int setTipo(Servicios* this,int tipo);
+int setTipoTxt(Servicios* this,char* tipo);
+int getTipo(Servicios* this,int* tipo);
+
+int setFlotante(Servicios* this,float flotante);
+int setFlotanteTxt(Servicios* this,char* flotante);
+int getFlotante(Servicios* this,float* flotante);
+
+int setCantidad(Servicios* this,int cantidad);
+int setCantidadTxt(Servicios* this,char* cantidad);
+int getCantidad(Servicios* this,int* cantidad);
+
+int setTotalServicio(Servicios* this,int totalServicio);
+int setTotalServicioTxt(Servicios* this,char* totalServicio);
+int getTotalServicio(Servicios* this,int* totalServicio);
+
+int multiplicar(Servicios* element);
+
+#endif /* SERVICIOS_H_ */

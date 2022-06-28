@@ -1,0 +1,175 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Controller.h"
+#include "LinkedList.h"
+#include "parser.h"
+#include "Passenger.h"
+#include "utn.h"
+
+
+/** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo texto).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_loadFromText(char* path , LinkedList* pArrayListPassenger)
+{
+	FILE* pFile;
+	int idMaximo;
+	if(pArrayListPassenger != NULL && path != NULL)
+	{
+		pFile = fopen(path,"r");
+		idMaximo = parser_FromText(pFile, pArrayListPassenger);
+	}
+	return retorno;
+}
+
+/** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo binario).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Alta de pasajero
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+
+int controller_addPassenger(LinkedList* pArrayListPassenger)
+{
+	int retorno = -1;
+	Passenger* a;
+	if(a != NULL && pArrayListPassenger != NULL &&
+	utn_getNombre(a->nombre, CHAR_LEN, "\nNombre?", "\nERROR\n", 2) == 0 &&
+	utn_getNombre(a->apellido, CHAR_LEN, "\nApellido?", "\nERROR\n", 2) == 0 &&
+	utn_getNumeroFlotante(&a->precio, "\nPrecio?", "\nERROR\n", 1, 900000, 2) == 0 &&
+	utn_getAlfanumerica(a->tipoPasajero,CHAR_LEN, "\nTipo de pasajero?", "\nERROR\n", 2) == 0 &&
+	utn_getAlfanumerica(a->codigoVuelo, CHAR_LEN, "\nCodigo de vuelo?", "\nERROR\n", 2) == 0 &&
+	utn_getNombre(a->estadoVuelo, CHAR_LEN, "\nEstado de vuelo?", "\nERROR\n", 2) == 0)
+	{
+		a = Passenger_newParametros(a->id,a->nombre,a->apellido,a->precio,a->tipoPasajero,a->codigoVuelo,a->estadoVuelo);
+		if(a != NULL)
+		{
+			if(ll_add(pArrayListPassenger, a)==0)
+			{
+				retorno = 0;
+				a->isEmpty = -1;
+				printf("\nSe agrego correctamente");
+			}
+		}
+	}
+    return retorno;
+}
+
+/** \brief Modificar datos de pasajero
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_editPassenger(LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Baja de pasajero
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_removePassenger(LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Listar pasajeros
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_ListPassenger(LinkedList* pArrayListPassenger)
+{
+	int retorno = -1;
+	Passenger* a;
+	int id;
+	char nombre[CHAR_LEN];
+	char apellido[CHAR_LEN];
+	float precio;
+	char tipoPasajero[CHAR_LEN];
+	char codigoVuelo[CHAR_LEN];
+	char estadoVuelo[CHAR_LEN];
+	a = pArrayListPassenger->pFirstNode->pNextNode->pElement;
+
+	for(int i=0; i<ll_len(pArrayListPassenger);i++)
+	{
+		a = ll_get(pArrayListPassenger, i);
+		if(Passenger_getId(a, &id) == 0 &&
+			Passenger_getNombre(a, nombre) == 0 &&
+			Passenger_getApellido(a, apellido) == 0 &&
+			Passenger_getPrecio(a, &precio) == 0 &&
+			Passenger_getTipoPasajero(a, tipoPasajero) == 0 &&
+			Passenger_getCodigoVuelo(a, codigoVuelo) == 0 &&
+			Passenger_getEstadoVuelo(a, estadoVuelo) == 0 &&
+			a->isEmpty == -1)
+		{
+			retorno = 0;
+			printf("%d, %s, %s, %.2f, %s, %s, %s\n",id,nombre,apellido,precio,tipoPasajero,codigoVuelo,estadoVuelo);
+		}
+
+	}
+	return retorno;
+}
+
+/** \brief Ordenar pasajeros
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_sortPassenger(LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo texto).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_saveAsText(char* path , LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+/** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo binario).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger)
+{
+    return 1;
+}
+
+

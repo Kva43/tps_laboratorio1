@@ -1,0 +1,6 @@
+#ifndef CONTROLLER_PASSENGER_H_
+#define CONTROLLER_PASSENGER_H_
+
+int Controller_passangerAdd(Passenger* pPassenger, int len, int id)
+
+#endif /* CONTROLLER_PASSENGER_H_ */

@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Controller.h"
+#include "LinkedList.h"
+#include "Passenger.h"
+#include "utn.h"
+
+int main()
+{
+	setbuf(stdout,NULL);
+    int option = 0;
+    LinkedList* listaServicios = ll_newLinkedList();
+    void* puntero;
+    do
+    {
+    	utn_getNumero(&option, "Menu:\n"
+    		     "1. Cargar archivo\n"
+    		     "2. Imprimir lista\n"
+    		     "3. Asignar totales\n"
+    		     "4. Filtrar por tipo\n"
+    		     "5.  Mostrar servicios\n"
+    		     "6. Guardar servicios\n"
+    		     "7. Salir\n", "\nERROR", 1, 7, 2);
+        switch(option)
+        {
+            case 1:
+                if(controller_loadFromText("data.csv",listaServicios)==0)
+				{
+					printf("\nSE CARGÓ\n");
+				}
+                break;
+            case 2:
+            	controller_ListServicios(listaServicios);
+				break;
+            case 3:
+            	ll_map(listaServicios,multiplicar((Passenger*)puntero));
+				break;
+            case 4:
+
+				break;
+            case 5:
+				break;
+            case 6:
+				break;
+            case 7:
+				break;
+        }
+    } while(option != 7);
+    return 0;
+}
+

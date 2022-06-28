@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Controller.h"
+#include "LinkedList.h"
+#include "Servicios.h"
+#include "utn.h"
+
+/** \brief Parsea los datos de los pasajeros desde el archivo data.csv (modo texto).
+ *
+ * \param path char*
+ * \param pArrayListPassenger LinkedList*
+ * \return int
+ *
+ */
+int parser_FromText(FILE* pFile , LinkedList* pArrayListServicios)
+{
+	int retorno = -1;
+	Servicios* puntero = NULL;
+	char id[4096];
+	char desc[4096];
+	char tipo[4096];
+	char precio[4096];
+	char cant[4096];
+	char totalSer[4096];
+
+	if(pFile != NULL)
+	{
+		do
+		{
+			if(fscanf(pFile,"%[^,],%[^,],%[^,],%[^,],%[^,],%[^\n]\n",id,desc,tipo,precio,cant,totalSer) == 6)
+			{
+				puntero = newParametros(id,desc,tipo,precio,cant,totalSer);
+				if(puntero != NULL)
+				{
+					if(ll_add(pArrayListServicios, puntero)==0)
+					{
+						retorno = 0;
+					}
+				}
+			}
+			else
+			{
+				break;
+			}
+		} while(feof(pFile) == 0);
+	}
+	fclose(pFile);
+	return retorno;
+}

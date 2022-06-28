@@ -1,0 +1,854 @@
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+11:16:57 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:17:53 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:19:45 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:20:14 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:22:40 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:33:42 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:34:15 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:35:45 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:36:29 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_setCodigoVuelo':
+..\Passenger.c:174:6: warning: implicit declaration of function 'isAlfanumerica' [-Wimplicit-function-declaration]
+   if(isAlfanumerica(codigoVuelo,NOMBRE_LEN))
+      ^~~~~~~~~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Passenger.o: In function `Passenger_setCodigoVuelo':
+C:\Users\USUARIO\TP_Laboratorio_1\TP3\Debug/../Passenger.c:174: undefined reference to `isAlfanumerica'
+collect2.exe: error: ld returned 1 exit status
+11:37:14 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_setCodigoVuelo':
+..\Passenger.c:175:6: warning: implicit declaration of function 'isAlfanumerica' [-Wimplicit-function-declaration]
+   if(isAlfanumerica(codigoVuelo,NOMBRE_LEN))
+      ^~~~~~~~~~~~~~
+At top level:
+..\Passenger.c:323:12: warning: 'esAlfanumerica' defined but not used [-Wunused-function]
+ static int esAlfanumerica(char* cadena,int longitud)
+            ^~~~~~~~~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Passenger.o: In function `Passenger_setCodigoVuelo':
+C:\Users\USUARIO\TP_Laboratorio_1\TP3\Debug/../Passenger.c:175: undefined reference to `isAlfanumerica'
+collect2.exe: error: ld returned 1 exit status
+11:37:32 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:38:24 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:38:43 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:46:29 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_newParametros':
+..\Passenger.c:26:173: error: 'NULLS' undeclared (first use in this function)
+  if(this != NULL && idStr != NULL && nombreStr != NULL && apellidoStr != NULL && precioStr != NULL && codigoDeVueloStr != NULL && tipoPasajeroStr != NULL && estadoVuelo != NULLS)
+                                                                                                                                                                             ^~~~~
+..\Passenger.c:26:173: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c: In function 'Passenger_getTipoPasajero':
+..\Passenger.c:228:17: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *tipoPasajero = this->tipoPasajero;
+                 ^
+..\Passenger.c: In function 'Passenger_getEstadoVuelo':
+..\Passenger.c:254:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *estadoVuelo = this->estadoVuelo;
+                ^
+11:46:40 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_ListPassenger':
+..\Controller.c:105:33: warning: passing argument 2 of 'Passenger_getTipoPasajero' from incompatible pointer type [-Wincompatible-pointer-types]
+    Passenger_getTipoPasajero(a, &tipoPasajero) == 0 &&
+                                 ^
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:37:5: note: expected 'char *' but argument is of type 'int *'
+ int Passenger_getTipoPasajero(Passenger* this,char* tipoPasajero);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_getTipoPasajero':
+..\Passenger.c:228:17: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *tipoPasajero = this->tipoPasajero;
+                 ^
+..\Passenger.c: In function 'Passenger_getEstadoVuelo':
+..\Passenger.c:254:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *estadoVuelo = this->estadoVuelo;
+                ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+..\parser.c: In function 'parser_FromText':
+..\parser.c:33:15: error: too few arguments to function 'Passenger_newParametros'
+     puntero = Passenger_newParametros(id,nombre,apellido,precio,tipoPasajero,codigoVuelo);
+               ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\parser.c:3:
+..\Passenger.h:20:12: note: declared here
+ Passenger* Passenger_newParametros(char* idStr,char* nombreStr,char* apellidoStr, char* precioStr,char* tipoPasajeroStr, char* codigoVueloStr, char* estadoVuelo);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+11:47:42 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+..\parser.c: In function 'parser_FromText':
+..\parser.c:33:15: error: too few arguments to function 'Passenger_newParametros'
+     puntero = Passenger_newParametros(id,nombre,apellido,precio,tipoPasajero,codigoVuelo);
+               ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\parser.c:3:
+..\Passenger.h:20:12: note: declared here
+ Passenger* Passenger_newParametros(char* idStr,char* nombreStr,char* apellidoStr, char* precioStr,char* tipoPasajeroStr, char* codigoVueloStr, char* estadoVuelo);
+            ^~~~~~~~~~~~~~~~~~~~~~~
+11:48:30 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:49:55 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_getTipoPasajero':
+..\Passenger.c:227:17: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *tipoPasajero = this->tipoPasajero;
+                 ^
+..\Passenger.c: In function 'Passenger_getEstadoVuelo':
+..\Passenger.c:253:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   *estadoVuelo = this->estadoVuelo;
+                ^
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+11:50:45 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:52:31 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:53:06 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+11:54:23 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:57:52 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+11:58:28 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+12:00:27 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+12:01:46 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+12:02:41 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+12:03:45 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+12:03:56 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+12:05:29 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+12:07:38 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+12:08:42 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+12:09:35 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+12:11:16 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+12:32:00 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:54:5: warning: 'pPuntero' is used uninitialized in this function [-Wuninitialized]
+  if(ll_add(pArrayListPassenger, pPuntero)== 0)
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+12:32:16 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+13:00:17 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:56:5: warning: implicit declaration of function 'utn_getNumero' [-Wimplicit-function-declaration]
+  if(utn_getNumero(a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+     ^~~~~~~~~~~~~
+..\Controller.c:57:2: warning: implicit declaration of function 'utn_getNombre' [-Wimplicit-function-declaration]
+  utn_getNombre(a->nombre, CHAR_LEN, "\nNombre?", "\nERROR\n", 2) == 0 &&
+  ^~~~~~~~~~~~~
+..\Controller.c:59:2: warning: implicit declaration of function 'utn_getNumeroFlotante' [-Wimplicit-function-declaration]
+  utn_getNumeroFlotante(a->precio, "\nPrecio?", "\nERROR\n", 1, 900000, 2) == 0 &&
+  ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:60:2: warning: implicit declaration of function 'utn_getAlfanumerica' [-Wimplicit-function-declaration]
+  utn_getAlfanumerica(a->tipoPasajero,CHAR_LEN, "\nTipo de pasajero?", "\nERROR\n", 2) == 0 &&
+  ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:64:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   puntero = Passenger_newParametros(a->id,a->nombre,a->apellido,a->precio,a->tipoPasajero,a->codigoVuelo,a->estadoVuelo);
+           ^
+..\Controller.c:65:14: warning: comparison between pointer and integer
+   if(puntero != NULL)
+              ^~
+..\Controller.c:67:35: warning: passing argument 2 of 'll_add' makes pointer from integer without a cast [-Wint-conversion]
+    if(ll_add(pArrayListPassenger, puntero)==0)
+                                   ^~~~~~~
+In file included from ..\Controller.c:4:0:
+..\LinkedList.h:23:5: note: expected 'void *' but argument is of type 'int'
+ int ll_add(LinkedList* this, void* pElement);
+     ^~~~~~
+..\Controller.c:56:5: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(utn_getNumero(a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_newParametros':
+..\Passenger.c:47:90: error: 'codigoDeVueloStr' undeclared (first use in this function)
+  if(this != NULL && id >= 0 && nombreStr != NULL && apellidoStr != NULL && precio > 0 && codigoDeVueloStr != NULL && tipoPasajeroStr != NULL && estadoVuelo != NULL)
+                                                                                          ^~~~~~~~~~~~~~~~
+..\Passenger.c:47:90: note: each undeclared identifier is reported only once for each function it appears in
+13:00:29 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:57:19: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  if(utn_getNumero(a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+                   ^
+In file included from ..\Controller.c:7:0:
+..\utn.h:11:5: note: expected 'int *' but argument is of type 'int'
+ int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+     ^~~~~~~~~~~~~
+..\Controller.c:60:24: error: incompatible type for argument 1 of 'utn_getNumeroFlotante'
+  utn_getNumeroFlotante(a->precio, "\nPrecio?", "\nERROR\n", 1, 900000, 2) == 0 &&
+                        ^
+In file included from ..\Controller.c:7:0:
+..\utn.h:12:5: note: expected 'float *' but argument is of type 'float'
+ int utn_getNumeroFlotante(float* pResultado, char* mensaje, char* mensajeError, float minimo, float maximo, int reintentos);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   puntero = Passenger_newParametros(a->id,a->nombre,a->apellido,a->precio,a->tipoPasajero,a->codigoVuelo,a->estadoVuelo);
+           ^
+..\Controller.c:66:14: warning: comparison between pointer and integer
+   if(puntero != NULL)
+              ^~
+..\Controller.c:68:35: warning: passing argument 2 of 'll_add' makes pointer from integer without a cast [-Wint-conversion]
+    if(ll_add(pArrayListPassenger, puntero)==0)
+                                   ^~~~~~~
+In file included from ..\Controller.c:4:0:
+..\LinkedList.h:23:5: note: expected 'void *' but argument is of type 'int'
+ int ll_add(LinkedList* this, void* pElement);
+     ^~~~~~
+13:01:49 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_newParametros':
+..\Passenger.c:47:90: error: 'codigoDeVueloStr' undeclared (first use in this function)
+  if(this != NULL && id >= 0 && nombreStr != NULL && apellidoStr != NULL && precio > 0 && codigoDeVueloStr != NULL && tipoPasajeroStr != NULL && estadoVuelo != NULL)
+                                                                                          ^~~~~~~~~~~~~~~~
+..\Passenger.c:47:90: note: each undeclared identifier is reported only once for each function it appears in
+13:02:12 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:56:5: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(utn_getNumero(&a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+13:02:29 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+13:04:59 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:56:5: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(utn_getNumero(&a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+13:05:44 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:56:19: warning: passing argument 1 of 'utn_getNumero' makes pointer from integer without a cast [-Wint-conversion]
+  if(utn_getNumero(a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+                   ^
+In file included from ..\Controller.c:7:0:
+..\utn.h:11:5: note: expected 'int *' but argument is of type 'int'
+ int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos);
+     ^~~~~~~~~~~~~
+..\Controller.c:56:20: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(utn_getNumero(a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+                   ~^~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+13:06:07 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:56:5: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(utn_getNumero(&a->id, "\nId?", "\nERROR\n", 0, 10000, 2) == 0 &&
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+13:06:55 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:56:4: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(a != NULL && pArrayListPassenger != NULL &&
+    ^
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+13:08:07 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c:52:5: error: conflicting types for 'controller_addPassenger'
+ int controller_addPassenger(LinkedList* pArrayListPassenger, Passenger* a)
+     ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.c:3:0:
+..\Controller.h:7:5: note: previous declaration of 'controller_addPassenger' was here
+ int controller_addPassenger(LinkedList* pArrayListPassenger);
+     ^~~~~~~~~~~~~~~~~~~~~~~
+13:08:29 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:36:14: warning: 'passenger' may be used uninitialized in this function [-Wmaybe-uninitialized]
+              controller_addPassenger(listaPassenger, passenger);
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+18:35:35 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:56:4: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(a != NULL && pArrayListPassenger != NULL &&
+    ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+18:37:23 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:38:18 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:39:02 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:40:06 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:41:50 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:42:47 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+18:44:01 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:44:23 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+18:44:54 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:45:37 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:46:34 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:48:03 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:49:49 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+..\utn.c: In function 'esAlfanumerica':
+..\utn.c:454:143: warning: character constant too long for its type
+    if((cadena[i] < 'A' || cadena[i] > 'Z' ) && (cadena[i] < 'a' || cadena[i] > 'z' ) && (cadena[i] < '0' || cadena[i] > '9') && (cadena[i] == 'space'))
+                                                                                                                                               ^~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+18:50:19 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+..\utn.c: In function 'esAlfanumerica':
+..\utn.c:454:140: warning: comparison between pointer and integer
+    if((cadena[i] < 'A' || cadena[i] > 'Z' ) && (cadena[i] < 'a' || cadena[i] > 'z' ) && (cadena[i] < '0' || cadena[i] > '9') && (cadena[i] == "space"))
+                                                                                                                                            ^~
+..\utn.c:454:140: warning: comparison with string literal results in unspecified behavior [-Waddress]
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+18:50:44 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+..\utn.c: In function 'esAlfanumerica':
+..\utn.c:454:143: warning: character constant too long for its type
+    if((cadena[i] < 'A' || cadena[i] > 'Z' ) && (cadena[i] < 'a' || cadena[i] > 'z' ) && (cadena[i] < '0' || cadena[i] > '9') && (cadena[i] == '(space)'))
+                                                                                                                                               ^~~~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:51:30 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:51:50 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:52:16 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:52:34 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:53:02 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+..\utn.c: In function 'esAlfanumerica':
+..\utn.c:454:60: warning: character constant too long for its type
+    if((cadena[i] < 'A' || cadena[i] > 'Z'  || cadena[i] == 'space') && (cadena[i] < 'a' || cadena[i] > 'z'  || cadena[i] == 32) && (cadena[i] < '0' || cadena[i] > '9'))
+                                                            ^~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+18:53:28 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+19:09:10 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:53:4: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(a != NULL && pArrayListPassenger != NULL &&
+    ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+19:10:43 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+19:12:57 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+19:15:34 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+19:16:26 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+19:25:28 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:54:7: error: invalid operands to binary != (have 'Passenger {aka struct <anonymous>}' and 'void *')
+  if(a != NULL && pArrayListPassenger != NULL &&
+       ^~
+..\Controller.c:62:5: error: incompatible types when assigning to type 'Passenger {aka struct <anonymous>}' from type 'Passenger * {aka struct <anonymous> *}'
+   a = Passenger_newParametros(id,a.nombre,a.apellido,a.precio,a.tipoPasajero,a.codigoVuelo,a.estadoVuelo);
+     ^
+..\Controller.c:63:8: error: invalid operands to binary != (have 'Passenger {aka struct <anonymous>}' and 'void *')
+   if(a != NULL)
+        ^~
+..\Controller.c:65:35: error: incompatible type for argument 2 of 'll_add'
+    if(ll_add(pArrayListPassenger, a)==0)
+                                   ^
+In file included from ..\Controller.c:4:0:
+..\LinkedList.h:23:5: note: expected 'void *' but argument is of type 'Passenger {aka struct <anonymous>}'
+ int ll_add(LinkedList* this, void* pElement);
+     ^~~~~~
+..\Controller.c:68:6: error: invalid type argument of '->' (have 'Passenger {aka struct <anonymous>}')
+     a->isEmpty = -1;
+      ^~
+19:25:56 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:62:5: error: incompatible types when assigning to type 'Passenger {aka struct <anonymous>}' from type 'Passenger * {aka struct <anonymous> *}'
+   a = Passenger_newParametros(id,a.nombre,a.apellido,a.precio,a.tipoPasajero,a.codigoVuelo,a.estadoVuelo);
+     ^
+..\Controller.c:63:8: error: invalid operands to binary != (have 'Passenger {aka struct <anonymous>}' and 'void *')
+   if(a != NULL)
+        ^~
+..\Controller.c:65:35: error: incompatible type for argument 2 of 'll_add'
+    if(ll_add(pArrayListPassenger, a)==0)
+                                   ^
+In file included from ..\Controller.c:4:0:
+..\LinkedList.h:23:5: note: expected 'void *' but argument is of type 'Passenger {aka struct <anonymous>}'
+ int ll_add(LinkedList* this, void* pElement);
+     ^~~~~~
+..\Controller.c:68:6: error: invalid type argument of '->' (have 'Passenger {aka struct <anonymous>}')
+     a->isEmpty = -1;
+      ^~
+19:26:51 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:54:4: warning: 'a' is used uninitialized in this function [-Wuninitialized]
+  if(a != NULL && pArrayListPassenger != NULL &&
+    ^
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+19:27:48 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:02:07 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:03:06 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:54:7: error: invalid operands to binary != (have 'Passenger {aka struct <anonymous>}' and 'void *')
+  if(a != NULL && pArrayListPassenger != NULL &&
+       ^~
+20:03:18 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:07:03 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:17:08 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:62:22: warning: passing argument 1 of 'Passenger_setId' from incompatible pointer type [-Wincompatible-pointer-types]
+   if(Passenger_setId(pArrayListPassenger, id) == 0 &&
+                      ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:24:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_setId(Passenger* this,int id);
+     ^~~~~~~~~~~~~~~
+..\Controller.c:63:23: warning: passing argument 1 of 'Passenger_setNombre' from incompatible pointer type [-Wincompatible-pointer-types]
+   Passenger_setNombre(pArrayListPassenger, a.nombre) == 0 &&
+                       ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:28:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_setNombre(Passenger* this,char* nombre);
+     ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:64:25: warning: passing argument 1 of 'Passenger_setApellido' from incompatible pointer type [-Wincompatible-pointer-types]
+   Passenger_setApellido(pArrayListPassenger, a.apellido) == 0 &&
+                         ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:31:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_setApellido(Passenger* this,char* apellido);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:65:23: warning: passing argument 1 of 'Passenger_setPrecio' from incompatible pointer type [-Wincompatible-pointer-types]
+   Passenger_setPrecio(pArrayListPassenger, a.precio)== 0 &&
+                       ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:43:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_setPrecio(Passenger* this,float precio);
+     ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:66:29: warning: passing argument 1 of 'Passenger_setTipoPasajero' from incompatible pointer type [-Wincompatible-pointer-types]
+   Passenger_setTipoPasajero(pArrayListPassenger, a.tipoPasajero) == 0 &&
+                             ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:37:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_setTipoPasajero(Passenger* this,char* tipoPasajero);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:67:28: warning: passing argument 1 of 'Passenger_setCodigoVuelo' from incompatible pointer type [-Wincompatible-pointer-types]
+   Passenger_setCodigoVuelo(pArrayListPassenger, a.codigoVuelo) == 0 &&
+                            ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:34:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_setCodigoVuelo(Passenger* this,char* codigoVuelo);
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:68:28: warning: passing argument 1 of 'Passenger_setEstadoVuelo' from incompatible pointer type [-Wincompatible-pointer-types]
+   Passenger_setEstadoVuelo(pArrayListPassenger, a.estadoVuelo) == 0)
+                            ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.h:2:0,
+                 from ..\Controller.c:3:
+..\Passenger.h:40:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_setEstadoVuelo(Passenger* this,char* estadoVuelo);
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:21:29 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:25:07 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+20:31:08 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:70:6: warning: 'b' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if(Passenger_setId(b, id) == 0 &&
+      ^~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:31:33 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:33:23 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:33:47 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:35:34 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:36:09 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:36:54 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:70:6: warning: 'b' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   if(Passenger_setId(b, id) == 0 &&
+      ^~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:37:53 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: error: invalid type argument of '->' (have 'Passenger {aka struct <anonymous>}')
+     b->isEmpty = -1;
+      ^~
+20:38:02 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:42:33 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:44:39 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:45:40 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:55:46 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+20:56:18 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+20:58:41 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+21:07:22 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+21:16:52 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LinkedList.o "..\\LinkedList.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+21:19:02 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LinkedList.o "..\\LinkedList.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+21:35:00 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3
+Info: Nothing to build for TP3
+21:39:45 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LinkedList.o "..\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+21:40:13 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LinkedList.o "..\\LinkedList.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+22:03:27 **** Incremental Build of configuration Debug for project TP3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LinkedList.o "..\\LinkedList.c" 
+gcc "-LC:\\Users\\USUARIO\\TP_Laboratorio_1\\TP3" -o TP3.exe Controller.o LinkedList.o Passenger.o main.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP3

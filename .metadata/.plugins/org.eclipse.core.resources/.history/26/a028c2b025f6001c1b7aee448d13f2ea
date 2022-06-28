@@ -1,0 +1,27 @@
+id_servicio,descripcion,tipo,precioUnitario,cantidad,totalServicio
+50,ruedopantalon,1,25,222,0
+51,ensamblevestido,2,860,25,0
+52,costuracorrea mochila,3,450.25,60,0
+53,cierrepantalon,1,600,4,0
+54,botoncamisa,2,145,120,0
+55,forropiloto,3,324.66,156,0
+56,vicera,3,450,180,0
+57,costuraremera,3,650,60,0
+58,ensamblebolso,3,450.25,80,0
+59,cambiocierre,1,700,2,0
+60,cambioboton,2,70,10,0
+61,apliquecapucha,1,260,1,0
+62,ruedopantalon,1,250,2,0
+63,botoncamisa,2,145,120,0
+64,ensamblebolso,3,450.25,50,0
+65,cambiocierre,1,700,2,0
+66,forrocampera,3,365.60,150,0
+67,apliquecapucha,1,260,1,0
+68,vicera,3,450,160,0
+69,cambiocierre,1,700,1,0
+70,cierrepantalon,1,600,2,0
+71,ensamblebolso,3,450.25,40,0
+72,botoncamisa,2,145,60,0
+73,cambioboton,2,70,25,0
+74,ensamblevestido,2,860,15,0
+
